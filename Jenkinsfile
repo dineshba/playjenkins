@@ -9,11 +9,11 @@ pipeline {
   agent any
 
   stages {
-    stage('Checkout Source') {
-      steps {
-        git 'https://github.com/saptaktakalkar/playjenkins.git'
-      }
-    }
+    // stage('Checkout Source') {
+    //   steps {
+    //     git 'https://github.com/saptaktakalkar/playjenkins.git'
+    //   }
+    // }
 
     stage('Build image') {
       steps{
